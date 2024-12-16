@@ -148,6 +148,7 @@ section {
     width: 2px; /* Very thin line */
     height: 500px; /* Adjust the height of the line */
     background-color: #213577; /* Light color for the line */
+    z-index: 1;
 }
 .content {
     display: flex;
@@ -162,6 +163,8 @@ section {
     border-radius: 10px;
     padding: 25px;
     margin: 10px 170px 120px;
+    z-index: 2;
+
 
 
 }
